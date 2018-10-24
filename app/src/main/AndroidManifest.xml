@@ -10,27 +10,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".Login_Activity" >
-
-        </activity>
-        <activity android:name=".activity_ReceiveSOS">
-
-        </activity>
+        <activity android:name=".Login_Activity"></activity>
+        <activity android:name=".Receive_SOS"></activity>
 
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/duongvien_goctron" />
 
-        <activity android:name=".activity_offReport" />
-
-        <activity android:name=".activity_register">
+        <activity android:name=".Off_Report" />
+        <activity android:name=".Register">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Send_SOS"></activity>
     </application>
 
 </manifest>
