@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#94339cff">
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--app:srcCompat="@drawable/i_white" />-->
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="276dp"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginBottom="50dp"
+
+        android:background="@drawable/duongvien_goctron" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginBottom="90dp"
+        android:background="#fff"
+
+        />
+
+    <TextView
+        android:id="@+id/tennguoidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="136dp"
+        android:text="Tên người dùng"
+        android:textColor="#f00"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/gio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="173dp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:text="đang gặp nguy hiểm"
+        android:textColor="#f00"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="232dp"
+        android:text="tại" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:text="địa chỉ người gởi"
+        android:textColor="#f00"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtCach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+
+        android:layout_marginTop="9dp"
+
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/gio"
+        android:text="Cách" />
+
+    <TextView
+        android:id="@+id/txtKhoangCach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tennguoidung"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="17dp"
+        android:text="XYX mét"
+        android:textColor="#f00"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnXem"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="150dp"
+        android:layout_toStartOf="@+id/textView3"
+        android:text="Xem" />
+
+    <Button
+        android:id="@+id/btnBoQua"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/btnXem"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:text="Bỏ qua" />
+
+    <!--pppppppp-->
+    <TextView
+        android:id="@+id/txtTennguoidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="103dp"
+        android:textColor="#3366ff"
+        android:textSize="16dp"
+        android:text="Tên người dùng" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="125dp"
+        android:text="cần" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="161dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_marginStart="-17dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:text="Lời nhắn người gửi"
+        android:textColor="#3366ff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/txtTennguoidung"
+        android:layout_marginTop="-129dp"
+        android:text="tại" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="-129dp"
+        android:layout_toEndOf="@+id/textView7"
+        android:textColor="#3366ff"
+        android:textSize="16dp"
+        android:text=" địa chỉ người gửi" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginStart="-110dp"
+        android:layout_marginTop="-129dp"
+        android:layout_toEndOf="@+id/textView"
+        android:textColor="#3366ff"
+        android:textSize="16dp"
+        android:text=" XYX mét" />
+
+    <ImageButton
+        android:id="@+id/imbReport"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:srcCompat="@drawable/ic_report" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:text="cách" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-114dp"
+        android:layout_marginTop="-20dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
+

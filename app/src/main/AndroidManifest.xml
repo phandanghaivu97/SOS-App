@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="capstone1.dtu.f4.sosapplication">
 
     <application
@@ -9,16 +10,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".Login_Activity" >
 
         </activity>
-        <activity android:name=".Login_Activity" />
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".activity_ReceiveSOS">
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        </activity>
 
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/duongvien_goctron" />
+
+        <activity android:name=".activity_offReport" />
+
+        <activity android:name=".activity_register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -2,7 +2,7 @@
 <RelativeLayout
     android:layout_width="match_parent" android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/i_1">
+    android:background="#94339cff">
 
     <View
         android:id="@+id/view2"
@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="27dp"
         android:layout_marginTop="122dp"
-        android:background="@drawable/actions"
+        android:background="@drawable/duongvien_goctron"
          />
 
     <TextView
