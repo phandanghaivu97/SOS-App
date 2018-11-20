@@ -4,6 +4,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="#94339cff">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-280dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/logo" />
+    <TextView
+        android:id="@+id/txtPolice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="85dp"
+        android:text="Cảnh Sát"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#ed0c48"/>
     <View
         android:id="@+id/view2"
         android:layout_width="329dp"
@@ -72,19 +93,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="41dp"
+        android:layout_marginBottom="86dp"
         android:text="Quên mật khẩu?"
         android:textColor="#fff" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="68dp"
-        android:text="Bạn chưa có tài khoản?"
-        android:textColor="#fff"
-        android:textSize="18dp" />
+
 
 </RelativeLayout>

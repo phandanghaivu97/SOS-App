@@ -3,9 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="capstone1.dtu.f4.sosapplication">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,33 +10,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login_Activity"></activity>
-        <activity android:name=".Receive_SOS"></activity>
+        <activity android:name=".Receive_SOS" />
 
-<<<<<<< HEAD
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/duongvien_goctron" />
 
         <activity android:name=".Off_Report" />
-        <activity android:name=".Register">
+        <activity android:name=".Register" />
+        <activity android:name=".Send_SOS" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".activity_login_police">
+
+        </activity>
+        <activity android:name=".receive_sos_police" >
+
+        </activity>
+        <activity android:name=".main_sos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Send_SOS"></activity>
-=======
-        </activity>
-        <activity android:name=".Login_Activity" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
->>>>>>> adb4680aaf3612eaf30f4e930e4b562a25c405b4
     </application>
 
 </manifest>

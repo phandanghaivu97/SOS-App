@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout  xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent" android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#d9f4f2">
 
 
     <View
@@ -26,7 +27,10 @@
         android:textSize="16dp"
         android:textColor="#000000"
         android:text="Tắt thông báo trợ giúp" />
-
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
     <RadioButton
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
@@ -34,6 +38,7 @@
         android:layout_alignStart="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_marginTop="124dp"
+        android:layout_marginStart="100dp"
         android:text="Trong 30 phút" />
 
     <RadioButton
@@ -42,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/radioButton"
         android:layout_alignStart="@+id/textView4"
-        android:layout_marginStart="-2dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="0dp"
         android:text="Trong 1 giờ" />
 
@@ -52,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/radioButton2"
         android:layout_alignStart="@+id/radioButton"
-        android:layout_marginStart="0dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="-1dp"
         android:text="Trong 8 giờ" />
 
@@ -64,6 +69,7 @@
         android:layout_alignBottom="@+id/view"
         android:layout_marginEnd="-7dp"
         android:layout_marginBottom="51dp"
+        android:layout_marginStart="100dp"
         android:text="Trong 24 giờ" />
 
     <RadioButton
@@ -72,8 +78,22 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView4"
         android:layout_alignBottom="@+id/view"
-        android:layout_marginStart="-1dp"
+        android:layout_marginStart="100dp"
         android:layout_marginBottom="18dp"
+        android:layout_marginTop="-50dp"
         android:text="Đến khi tôi bật lại" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnVote"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="300dp"
+        android:text="Vote"
+        android:background="#acd7f1"
+        />
+
+
 </RelativeLayout>
 
